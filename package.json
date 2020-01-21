@@ -1,0 +1,25 @@
+{
+  "name": "jan06-w03d02",
+  "version": "1.0.0",
+  "description": "### To Do - [ ] Implement CRUD over HTTP with Express - [ ] Render data for the user using EJS templates - [ ] Use forms to submit HTTP requests - [ ] Explore the Post-Redirect-Get pattern - [ ] Using Chrome DevTools to see requests and responses - [ ] Practice debugging Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andydlindsay/jan06-w03d02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andydlindsay/jan06-w03d02/issues"
+  },
+  "homepage": "https://github.com/andydlindsay/jan06-w03d02#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}

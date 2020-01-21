@@ -1,4 +1,4 @@
-# W02D03 CRUD with Express
+# W03D02 CRUD with Express
 
 ### To Do
 - [ ] Implement CRUD over HTTP with Express
@@ -7,6 +7,12 @@
 - [ ] Explore the Post-Redirect-Get pattern
 - [ ] Using Chrome DevTools to see requests and responses
 - [ ] Practice debugging Express
+
+### CRUD and/or BREAD
+- Create Read Update Delete
+- It's all the stuff that we can do to data
+- Browse Read Edit Add Delete
+
 
 
 
