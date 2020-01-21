@@ -1,12 +1,12 @@
 # W03D02 CRUD with Express
 
 ### To Do
-- [ ] Implement CRUD over HTTP with Express
-- [ ] Render data for the user using EJS templates
-- [ ] Use forms to submit HTTP requests
-- [ ] Explore the Post-Redirect-Get pattern
-- [ ] Using Chrome DevTools to see requests and responses
-- [ ] Practice debugging Express
+- [x] Implement CRUD over HTTP with Express
+- [x] Render data for the user using EJS templates
+- [x] Use forms to submit HTTP requests
+- [x] Explore the Post-Redirect-Get pattern
+- [x] Using Chrome DevTools to see requests and responses
+- [x] Practice debugging Express
 
 ### CRUD and/or BREAD
 - Create Read Update Delete
@@ -19,6 +19,9 @@
 <%= %>
 <%- %>
 ```
+
+
+PRG Post Redirect Get
 
 
 

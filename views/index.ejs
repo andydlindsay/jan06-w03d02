@@ -8,10 +8,17 @@
 </head>
 <body>
   <h1>All of our Soups and Breads</h1>
+  <a href="/new">Create New Bread/Soup</a>
 
   <% for (const breadId in breadsAndSoups) { %>
-    <h2><%= breadsAndSoups[breadId].style %></h2>
+    <a href="/<%= breadId %>">
+      <h2><%= breadsAndSoups[breadId].style %></h2>
+    </a>
     <h4><%= breadsAndSoups[breadId].description %></h4>
+    
+    <form method="POST" action="/<%= breadId %>/delete">
+      <button type="submit">Consume!</button>
+    </form>
   <% } %>
 </body>
 </html>

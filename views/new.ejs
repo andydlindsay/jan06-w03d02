@@ -4,25 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Just One Bread and/or Soup</title>
+  <title>New Soups!!</title>
 </head>
 <body>
-  <h1>Just One Bread/Soup</h1>
+  <h1>New Bread and/or Soup</h1>
   <a href="/">Home</a>
 
-  <h2>Style: <%= bread.style %> (<%= id %>)</h2>
-  <h3>Description: <%= bread.description %></h3>
-
-  <form action="/<%= id %>" method="POST">
+  <form action="/" method="POST">
+    <label for="id">ID</label>
+    <input type="text" id="id" name="id" />
+    <br />
 
     <label for="style">Style</label>
     <input type="text" id="style" name="style" />
     <br />
-
+  
     <label for="description">Description</label>
     <input type="text" id="description" name="description" />
     <br />
-
+  
     <button type="submit">Update Soup</button>
   </form>
 </body>
