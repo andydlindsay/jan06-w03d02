@@ -1,9 +1,12 @@
 const express = require('express');
 const app = express();
+const morgan = require('morgan');
 
 const port = process.env.PORT || 8000;
 
 app.set('view engine', 'ejs');
+
+app.use(morgan('dev'));
 
 const breadsAndSoups = {
   'abc': {
@@ -22,10 +25,21 @@ const breadsAndSoups = {
 
 // Browse
 app.get('/', (req, res) => {
+  res.render('index', { breadsAndSoups });
+});
+
+// Read
+app.get('/:bread_id', (req, res) => {
+  const bread = breadsAndSoups[req.params.bread_id];
+  if (!bread) {
+    return res.redirect('/');
+  }
+
   const templateVars = {
-    breadsAndSoups
+    bread,
+    id: req.params.bread_id
   };
-  res.render('index', templateVars);
+  res.render('bread', templateVars);
 });
 
 app.listen(port, () => {

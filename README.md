@@ -13,7 +13,12 @@
 - It's all the stuff that we can do to data
 - Browse Read Edit Add Delete
 
+```js
+<% %>
 
+<%= %>
+<%- %>
+```
 
 
 
